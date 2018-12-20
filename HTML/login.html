@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authors" content="Evariste">
+    <meta name="description" content="Evariste products, not for sale">
+    <title>Vava House Products | Welcome</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+    <script src="../JAVASCRIPT/login.js"></script>
+</head>
+<body>
+ <header>
+     <div class="container">
+        <div id="branding">
+            <h1><span class="highlight">VAVA House</span> Good Quality Products</h1>
+        </div>
+        <nav>
+            <ul>
+              <li class="current"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        </div>
+     </div>
+ </header>
+ <div class="login-page">
+    <p id="message">Welcome to the best service provider Vava house. We are ranked among the top courier services in the world.
+      To start, create or login to this page in order to access our products.  
+    </p>
+
+    <div class="form">
+      <form class="hide" id="register-form"> 
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <input type="text" placeholder="User Name" required>
+        <input type="email" placeholder="Email Id" required autocomplete>
+        <input type="password" placeholder="Enter Password" id="pswd_1" required>
+        <input type="password" placeholder="Confirm Password" id="pswd_2" required>
+        <input type="text" placeholder="Country" required>
+        <input type="text" placeholder="City" required>
+        <input type="text" placeholder="Address">
+        <button type="button" id="create" onclick="validate_register()">Create</button>
+        <p class="message"> Already Registered? <a href ="#" id="btn_login">Login</a>
+        </p>
+    </form>
+    
+    <form class="show" id="login-form"> 
+      <input type="text" placeholder="User Name">
+      <input type="password" id="psw_l" placeholder="Password">
+      <button type="button" onclick="validate_login()">Login</button>
+      <p class="message"> Not Registered? <a id="btn_register" href ="#">Register</a>
+      </p>    
+    </form>
+    </div>
+  </div>
+<footer>
+    <p>Copyright Evariste Vava, &copy; 2018</p>
+</footer>
+</body>
+</html>

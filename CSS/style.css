@@ -122,6 +122,10 @@ header .highlight, header .current a {
     cursor: pointer;
 }
 
+.btn:hover {
+    color: green;
+}
+
 #logos {
     margin-top: 20px; 
 }
@@ -236,6 +240,10 @@ header .highlight, header .current a {
 
     #sidebar {
         margin-bottom: 10px;
+    }
+
+    textarea {
+        width: 100%
     }
 
 

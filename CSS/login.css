@@ -1,0 +1,169 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding:0;
+    background-color:#f4f4f4;
+    background: url("../IMAGES/login.jpg") no-repeat 0;
+    background-size: cover;
+    min-height: 400px;
+    text-align: center;
+}
+
+/* styling container class */
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* styling header */
+
+header {
+    background:#2F4F4F;
+    color:#FFFFFF;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: 1.5px solid red;
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+ ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+header li {
+    display: inline;
+    float: left;
+    padding:0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+    margin-top: 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 20px;
+}
+
+header #branding h1 {
+    margin:0;
+}
+
+header a:hover {
+    color:#A0522D;
+    border-bottom:#A0522D solid 1.5px;
+    font-weight: bold;
+}
+
+header .highlight, header .current a {
+    color: red;
+    font-weight: bold;
+}
+
+/* styling the showcase */
+.btn {
+    height: 38px;
+    width: 100px;
+    background:#A0522D;
+    color: #ffffff;
+    font: 15px Arial, Helvetica, sans-serif;
+    border: 0;
+    padding-left: 20px;
+    padding-right:20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: green;
+}
+
+.login-page {
+
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%
+}
+
+.form{
+
+
+	position: relative;
+	padding: 0 auto 100px;
+	padding: 45px;
+	z-index: 1;
+	text-align: center;
+	background-color: #778899;
+	margin: 10px;
+}
+
+.form input {
+
+	font-family: courier;
+	font-size: 18px;
+	background-color: #f3f3f3;
+	margin: 0 0 16px;
+	box-sizing: border-box;
+	padding: 15px;
+	border: none;
+	width: 100%;
+	outline: 1;
+
+}
+
+.form button {
+
+	font-family: courier;
+	font-size: 18px;
+	width: 100%;
+	background-color: #008B8B;
+	text-transform: uppercase;
+	border: none;
+	padding: 15px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+
+.form button:hover, .form button:active{
+
+	background-color:#2F4F4F;
+	transition: 0.5s;
+}
+
+#message {
+
+	color: #F0F8FF;
+	font-family: courier;
+	font-size: 16px;
+	margin: 15px 0 10px;
+}
+
+ .hide {
+
+	display: none;
+}
+
+.show {
+
+	display: block;
+}
+
+footer {
+    padding:15px;
+    margin-top:20px;
+    color: #ffffff;
+    background:#FF6347;
+    text-align: center;
+}
+
